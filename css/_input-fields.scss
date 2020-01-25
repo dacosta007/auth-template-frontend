@@ -41,3 +41,10 @@
     color: $secondary-color;
   }
 }
+
+// input error messages
+[data-error-email],
+[data-error-pwd],
+[data-error-rePwd] {
+  color: $danger-color;
+}

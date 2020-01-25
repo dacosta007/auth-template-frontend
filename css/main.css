@@ -216,6 +216,12 @@ a {
   color: #161640;
 }
 
+[data-error-email],
+[data-error-pwd],
+[data-error-rePwd] {
+  color: #db673a;
+}
+
 .btn {
   border: none;
   outline: none;
